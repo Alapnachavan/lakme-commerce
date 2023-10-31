@@ -1,14 +1,13 @@
 import './App.css';
-// import Header from './Header'
-import Searchbar from './Components/Searchbar';
-
+import React from 'react';
+import Product from './components/Product';
 
 function App() {
+  
   return (
     <div className="App">
-      {/* <Header/> */}
-      <Searchbar/>
-      
+      <h1>E-commerce Store</h1>     
+          <Product/>       
     </div>
   );
 }
