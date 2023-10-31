@@ -36,6 +36,27 @@ const data = [
     "price": "59.99",
     "image": "https://example.com/product5.jpg"
   }
+  {
+    "id": "6",
+    "name": "Product 6",
+    "description": "Experience the excellence of Product 5.",
+    "price": "59.99",
+    "image": "https://example.com/product5.jpg"
+  }
+  {
+    "id": "7",
+    "name": "Product 7",
+    "description": "Experience the excellence of Product 5.",
+    "price": "59.99",
+    "image": "https://example.com/product5.jpg"
+  }
+  {
+    "id": "8",
+    "name": "Product 8",
+    "description": "Experience the excellence of Product 5.",
+    "price": "59.99",
+    "image": "https://example.com/product5.jpg"
+  }
 ];
 
 const Product = ({ product }) => {
