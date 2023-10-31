@@ -5,6 +5,7 @@ const Searchbar = () => {
         <>
             <div>
                 <h1>Hello</h1>
+                <h2>Search</h2>
             </div>
         </>
     )
