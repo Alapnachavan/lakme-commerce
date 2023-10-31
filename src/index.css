@@ -18,3 +18,42 @@ code {
   border-radius: 15px;
   display:inline-block;
 }
+.image{
+  height: 50%;
+}
+.images{
+  height: 100px;
+  margin-top: 70px;}
+.info{
+  border: 1px solid black;
+  height: 50%;
+  background-color: black;
+  border-radius: 15px;
+  
+}
+.descript{
+  color:white;
+  font-size: 16px;
+  font-weight:500;
+  margin-top: 25px;
+  word-spacing: 3px;
+  letter-spacing: -1px;
+}
+.price{
+  color:white;
+  font-weight:500;
+  margin: 25px 0px 0px 0px;
+  font-size: 18px;
+}
+.button{
+  margin-top: 95px;
+  width: 262.81px;
+  height: 36px;
+  border-radius: 30px;
+  background-color: #D4B07C;
+  font-size: 17px;
+  letter-spacing: 2px;
+  color: white;
+  font-weight:500;
+  font-family: sans-serif;
+}

@@ -3,69 +3,66 @@ import React from 'react';
 const data = [
   {
     "id": "1",
-    "name": "Product 1",
-    "description": "This is the description for Product 1. It's a great product!",
-    "price": "19.99",
-    "image": "https://example.com/product1.jpg"
+    "description": "LAKMÉ LIP LOVE LIP MASK",
+    "price": "₹ 325",
+    "image": "lipsrub.png"
   },
   {
     "id": "2",
-    "name": "Product 2",
-    "description": "Product 2 is a high-quality item with many features.",
-    "price": "29.99",
-    "image": "https://example.com/product2.jpg"
+    "description": "LAKMÉ ABSOLUTE EXPLORE EYE PAINT",
+    "price": "₹ 500",
+    "image": "eye.png"
   },
   {
     "id": "3",
-    "name": "Product 3",
-    "description": "Introducing Product 3 - the latest innovation in technology.",
-    "price": "39.99",
-    "image": "https://example.com/product3.jpg"
+    "description": "9TO5 PRIMER + MATTE LIPSTICK TRIO",
+    "price": "₹ 1,099",
+    "image": "https://www.lakmeindia.com/products/lakme-lip-love-lip-scrub"
   },
   {
     "id": "4",
-    "name": "Product 4",
-    "description": "Product 4 is designed for your convenience and comfort.",
-    "price": "49.99",
-    "image": "https://example.com/product4.jpg"
+    "description": "LAKMÉ EYECONIC CURLING MASCARA.",
+    "price": "₹ 400",
+    "image": "https://www.lakmeindia.com/products/lakme-lip-love-lip-scrub"
   },
-  {
-    "id": "5",
-    "name": "Product 5",
-    "description": "Experience the excellence of Product 5.",
-    "price": "59.99",
-    "image": "https://example.com/product5.jpg"
-  }
-  {
-    "id": "6",
-    "name": "Product 6",
-    "description": "Experience the excellence of Product 5.",
-    "price": "59.99",
-    "image": "https://example.com/product5.jpg"
-  }
-  {
-    "id": "7",
-    "name": "Product 7",
-    "description": "Experience the excellence of Product 5.",
-    "price": "59.99",
-    "image": "https://example.com/product5.jpg"
-  }
-  {
-    "id": "8",
-    "name": "Product 8",
-    "description": "Experience the excellence of Product 5.",
-    "price": "59.99",
-    "image": "https://example.com/product5.jpg"
-  }
+  // {
+  //   "id": "5",
+  //   "description": "Experience the excellence of Product 5.",
+  //   "price": "59.99",
+  //   "image": "https://example.com/product5.jpg"
+  // },
+  // {
+  //   "id": "6",
+  //   "description": "Experience the excellence of Product 5.",
+  //   "price": "59.99",
+  //   "image": "https://example.com/product5.jpg"
+  // },
+  // {
+  //   "id": "7",
+  //   "description": "Experience the excellence of Product 5.",
+  //   "price": "59.99",
+  //   "image": "https://example.com/product5.jpg"
+  // },
+  // {
+  //   "id": "8",
+  //   "description": "Experience the excellence of Product 5.",
+  //   "price": "59.99",
+  //   "image": "https://example.com/product5.jpg"
+  // }
 ];
 
 const Product = ({ product }) => {
   return (
     <div className="product">
-      <h2>{product.name}</h2>
-      <p>{product.description}</p>
-      <p>Price: ₹{product.price}</p>
-      <button>Add to cart</button>
+      <div className="image">
+      <img className="images" src={product.image} alt={product.description} />
+      </div>
+      <div className="info">
+        {/* <h2 >{product.name}</h2> */}
+        <p className='descript'>{product.description}</p>
+        <p className='price'>{product.price}</p>
+        <button className='button'>Add to cart</button>
+      </div>
     </div>
   );
 };
