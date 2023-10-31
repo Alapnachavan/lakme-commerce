@@ -1,12 +1,14 @@
 import './App.css';
-import Header from './Header'
-import Addcart from "./Components/Addcart"
+// import Header from './Header'
+import Searchbar from './Components/Searchbar';
+
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Addcart/>
+      {/* <Header/> */}
+      <Searchbar/>
+      
     </div>
   );
 }
