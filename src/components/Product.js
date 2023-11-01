@@ -5,25 +5,25 @@ const data = [
     "id": "1",
     "description": "LAKMÉ LIP LOVE LIP MASK",
     "price": "₹ 325",
-    "image": "lipsrub.png"
+    "image": "lipmask.webp"
   },
   {
     "id": "2",
     "description": "LAKMÉ ABSOLUTE EXPLORE EYE PAINT",
     "price": "₹ 500",
-    "image": "eye.png"
+    "image": "eyepaint.webp"
   },
   {
     "id": "3",
     "description": "9TO5 PRIMER + MATTE LIPSTICK TRIO",
     "price": "₹ 1,099",
-    "image": "https://www.lakmeindia.com/products/lakme-lip-love-lip-scrub"
+    "image": "lipstick.webp"
   },
   {
     "id": "4",
     "description": "LAKMÉ EYECONIC CURLING MASCARA.",
     "price": "₹ 400",
-    "image": "https://www.lakmeindia.com/products/lakme-lip-love-lip-scrub"
+    "image": "mascara.webp"
   },
   // {
   //   "id": "5",
