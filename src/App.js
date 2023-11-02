@@ -8,18 +8,25 @@ import Categories from './Components/Categories';
 import Track from './Components/Track';
 import './App.css';
 import React from 'react';
-import Product from './components/Product';
+// import Profile from './Components/profile';
+// import Product from './components/Product';
+import Login from './Components/Login';
+import Cart from './Components/Cart';
+
 
 function App() {
   
   return (
     <div>
       <Navbar />
+      {/* <Login/> */}
+      {/* <Profile/> */}
       <Routes>
           <Route path="/Trendingnow" element={<Trendingnow/>}/>
           <Route path="/Categories" element={<Categories/>}/>
           <Route path="/Track" element={<Track/>}/>
-
+          <Route path="/Login" element={<Login/>}/>
+          <Route path="/Cart" element={<Cart/>}/>
       </Routes>
     </div>
   );
